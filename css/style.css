@@ -1,0 +1,56 @@
+.container {
+	max-width: 700px;
+}
+
+table {
+	width: 100%;
+	empty-cells: show;
+}
+
+td, th {
+	padding: 1rem;
+	text-align: center;
+}
+
+td:nth-of-type(1), td:nth-of-type(2) {
+	width: 35%;
+}
+
+thead {
+	background-color: gray;
+	color: #fff;
+}
+
+tbody tr:nth-of-type(even){
+	background-color: #eee;
+}
+
+input {
+	width: 100%;
+}
+
+tr.editing-mode {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bookmarks-table {
+	border-collapse:collapse;
+}
+
+input.ng-touched.ng-invalid.ng-dirty {
+    border-color: rgba(255, 0, 0, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.045) inset, 0 0 8px rgba(255, 0, 0, 0.4);
+}
+
+.create-bookmark {
+	padding: 30px;
+}
+
+.create-bookmark .row {
+	padding: 10px;
+}
+
+.error-message {
+	padding: 10px;
+	margin: 10px;
+}
